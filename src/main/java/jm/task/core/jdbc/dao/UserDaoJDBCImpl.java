@@ -11,7 +11,6 @@ import java.util.List;
 public class UserDaoJDBCImpl implements UserDao {
 
     private PreparedStatement preparedStatement;
-    private final String INSERT_NEW = "insert into userdao values (null, ?, ?, ?)";
 
     public UserDaoJDBCImpl() {
 
